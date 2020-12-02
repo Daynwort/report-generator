@@ -1,0 +1,11 @@
+Story,Title,Result,Date,Stability,Duration (s),Defect,Failure Reason
+Validate checkout billing address,10202 Verify validation for fields format on Billing page (negative case),SUCCESS,2020-11-22T15:51:03.073Z[GMT],0,2865.24,,
+Verify jumpstart donation checkout,"13481 Verify Jumpstart donation SKU calculation in order level for Canada Post and Purolator, registered user, regular",SUCCESS,2020-11-22T14:33:46.14Z[GMT],0,2539.64,,
+Validate checkout shipping address,10117 Verify error messages for fields on checkout Shipping page when invalid values are entered,SUCCESS,2020-11-22T14:06:05.113Z[GMT],0,2278.76,,
+Validate checkout billing address,14705 Verify successful validation of fields and max length on Billing page,SUCCESS,2020-11-22T16:38:48.311Z[GMT],0,2235.75,,
+Shipping method restrictions,"11210 Shipping address cannot have 'Po Box' - line 1, less 30kg order, shipping methods PUROLATOR & ALL, 2 SKU",SUCCESS,2020-11-22T14:24:10.846Z[GMT],0,2029.23,,
+Shipping method restrictions,"11212 Default shipping address cannot have 'Po Box' - line 1, less 30kg order, shipping methods PUROLATOR & ALL, 2 SKU",SUCCESS,2020-11-22T15:16:30.47Z[GMT],0,1989.07,,
+Validate account shipping address,10080 Check Shipping address validation,FAILURE,2020-11-22T13:34:13.442Z[GMT],1,1667.68,"FSD-5127, FSD-3747",Illegal state exception
+Checkout with unavailable items,14118 Verify that order total and JumpstartDonation are recalculated once products become unavailable for registerd user,FAILURE,2020-11-25T15:58:44.124Z[GMT],1,1580.85,,No such element exception
+Shipping promo calculation,14170 Verify applying and calculation shipping promos without restriction,SUCCESS,2020-11-22T21:35:47.781Z[GMT],0,1444.01,,
+Validate account billing address,10078 Check Billing address validation,SUCCESS,2020-11-22T14:46:34.819Z[GMT],0,1433.05,,
