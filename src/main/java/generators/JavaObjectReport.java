@@ -25,7 +25,7 @@ public class JavaObjectReport implements ReportGenerator {
                         iteration++;
                         continue;
                     }
-                    String[] splitReport = rb.split("," ,-1);
+                    String[] splitReport = rb.split(",", - 1);
                     report.add(new TestFields(splitReport [0], splitReport [1], splitReport [2], splitReport [3]
                             ,splitReport[4], splitReport[5], splitReport[6], splitReport[7]));
                 }
